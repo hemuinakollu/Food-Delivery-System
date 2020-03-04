@@ -1,0 +1,115 @@
+#enter-city{
+	padding-top: 100px;
+}
+#enter-email{
+	padding-top: 70px;
+}
+#select-restaurant{
+	padding-top: 70px;
+}
+#nav-div{
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#enter-city{
+	width: 400px;
+	margin: 0 auto;
+}
+#select-restaurant{
+	width: 400px;
+	margin: 0 auto;
+
+}
+#citySelect{
+	width: 200px;
+}
+#restaurantSelect{
+	width: 400px;
+}
+#image-div{
+	width: 400px;
+	padding-top: 50px;
+	margin: 5 auto;
+	
+}
+#images-div{
+	text-align: center
+	width: 340px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+#hotel-description{
+	padding-top: 20px;
+}
+#image-thumbnail{
+	float: left;
+}
+#hotel-nav-div{
+	padding-top: 20px;
+}
+#hotel-name{
+	padding-left: 110px;
+}
+.info-div1{
+
+	padding: 10px;
+	background-color: white;
+    width: 600px;
+    height: 800px;
+    padding: 25px;
+    border: 5px solid navy;
+    margin: 25px;
+    font-size: 18px;
+}
+.info-div2{
+	padding: 10px;
+	 background-color: white;
+    width: 600px;
+    height: 1200px;
+    padding: 25px;
+    border: 5px solid navy;
+    margin: 25px;
+    font-size: 18px;
+}
+table, th, td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    border-spacing: 15px;
+}
+.star {
+background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAACXZwQWcAAAALAAAACgCF+qVAAAAAhUlEQVQI103NMQqCABgF4C+Fxg7QHDQ0JkFnaKqlKJBu4Np9hEDoBq2doCYP0B4UBKLYUKZvex+P/+9N/dJ3FXl9S9CopbF9U1pOkAgb3irVanOMlGqldeBoo9CmspMFOFmp/hzLmtuXzvrWvpwJFVJvLLqci8Qmzl8OhzBwcMdD6ilXfwAd9B9f78yTCQAAAABJRU5ErkJggg==);  
+  }
+ 
+ .unstar {
+background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAACXZwQWcAAAALAAAACgCF+qVAAAAAo0lEQVQI1z2NMQrCQBRE32YxGFDwBGJnYZkll0ilpDISLO28k4lFwN7CTsTKSisbK8ELCJFI/BZJdn41j/kzSqiVuZ3r1yzeAAanoajpcOwsW2dxf+0yWGe6CaVzNmgY4VHyQKAiVsIlUlvc9otK4lXugNnJjKqlkpi86X6exIZfNztZBGhKUgr4hBZ3A3UX4ye/CYdeWHch7MOzJ9R3jFLt8we7izGyoi32iQAAAABJRU5ErkJggg==);
+  }
+ 
+ .half-star {
+background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAJdnBBZwAAAAsAAAAKAIX6pUAAAACTSURBVAjXTY0xCsJAEEVfdiEgpPAWFpYTvMRWSioDwdIuh7GydbEIeAM7sU1lo42tR1CEdSzMJk4178H/H7qTVK4+A0URTNTMmZhVhEHXMK69/UEiS3Z0sOGOQqBMQAr2pABbgKDlujHQHlgQYpdWeRO7z/0Cj8swOcPyxvOEl/vXN/K2+kw5Zq4PipNR/E+Ft8IX7yMjsFUGo0cAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAAAAElFTkSuQmCC);
+  }
+ 
+ .rating {
+    float: left;
+    width: 11px;
+    height: 10px;
+  }
+ .wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+input[type=checkbox], input[type=radio]{
+	margin: 4px 10px;
+}
+
+.hide-menu-item{
+	display: none;
+}

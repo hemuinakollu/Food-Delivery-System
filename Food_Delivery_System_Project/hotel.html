@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Food Delivery</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="css/home.css">
+	<script src="js/home.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="text-center">Online Food Delivery</h1>
+		<p class="text-center">Where Food Knocks Your Door</p>
+
+		<div id="nav-div">
+			<ul class="nav nav-pills">
+				<li id="home" role="presentation"><a href="homepage.html">Home</a></li>
+				<li id="about" role="presentation"><a href="About-us.html">About Us</a></li>
+				<li id="help" role="presentation"><a href="help.html">Help & FAQ</a></li>
+				<li id="cust-signin" role="presentation"><a href="Sign-In.html">Signin</a></li>
+			</ul>
+		</div>
+		
+		<div id="hotel-description" class="center-block">
+			<img id="image-thumbnail" src="images/hyd/logo.jpg" class="img-rounded" width="100px" height="100px">
+			<div id="hotel-name">
+				<h2>Paradise Persis Gold-Secunderabad</h2>
+				<p>Paradise Hotel or Paradise Persis or Persis Gold is a hotel located on MG Road, Secunderabad, India. It is reported to be popular for its Hyderabadi biryani and other Hyderabadi dishes. Apparently "Persis Gold" at Secunderabad is a landmark for all the people.</p>
+				</div>
+				<h4>Rating :</h4>
+				<span class="rating star"></span>
+ 				<span class="rating star"></span>
+				<span class="rating star"></span>
+ 				<span class="rating half-star"></span>
+ 				<span class="rating unstar"></span>
+ 				
+		</div>
+		<div>
+			<h3>Timings :- 11.00 AM To 11.00 PM</h3>
+		</div>
+		<div class="clearfix"></div>
+		<div id="hotel-nav-div">
+			<ul class="nav nav-tabs">
+			  <li id="facilities-btn" role="presentation"><a href="#">Facilities</a></li>
+			  <li id="menu-btn" role="presentation"><a href="#">Menu</a></li>
+			  <li id="order-btn" role="presentation"><a href="#">Place Order</a></li>
+			</ul>
+		</div>
+		<div id="facilities-div" class="center-block info-div1 hidden">
+			<b><h2 color="red">Facilities Information  ::</h2></b>
+			<h3 color="red">Payment Modes:</h3>
+			<table  cellpadding="5" Cellspacing="5" >
+				<tr cellpadding="5">
+					<th>Type</th>
+					<th>Options</th>
+				</tr>
+				<tr>
+					<td>Online</td>
+					<td>Debit,Credit Card and Online Banking</td>
+				</tr>
+				<tr>
+					<td> Pay on Delivery</td>
+					<td>Cash and Sodexo Coupons</td>
+				</tr>
+				<tr>
+					<td>Other</td>
+					<td>Paytm  and Citruscash Wallets</td>
+				</tr>
+			</table>
+			<b><h3 color="red">Cuisines :</h3></b>
+			<ul type="square">
+				<li>South Indian</li>
+				<li>North Indian</li>
+				<li>Chinese</li>
+				<li>Non-Alcoholic Beverages</li>
+				
+			</ul>
+			<b><h3 color="red">Amenities :</h3></b>
+			<ul type="square">
+				<li>Pre-Reservation of a Table(Members)</li>
+				<li>Pick-Up Facilty</li>
+				<li>Air-Conditioned</li>
+				<li>Live Music</li>
+				
+			</ul>
+
+		</div>
+		
+		<div id="menu-div" class="center-block hidden info-div2">
+			<b><h2 color="red">Menu Details  ::</h2>
+			<h3 color="red">South-Indian :</h3></b>
+			<table  cellpadding="2" Cellspacing="2"  align="center">
+				<tr >
+					<th>Item</th>
+					<th>Rate</th>
+					<th>Quantity</th>
+				</tr>
+				<tr>
+					<td>Veg Biryani</td>
+					<td>Rs 150.00/-</td>
+					<td> <select type="text" class="form-control" id="VegBiryani">
+					<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				<tr>
+					<td>Egg Biryani</td>
+					<td>Rs 170.00/-</td>
+					<td> <select type="text" class="form-control" id="EggBiryani">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				<tr>
+					<td>Chicken Biryani</td>
+					<td>Rs 200.00/-</td>
+					<td> <select type="text" class="form-control" id="ChickenBiryani">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				<tr>
+					<td>Meals</td>
+					<td>Rs 100.00/-</td>
+					<td> <select type="text" class="form-control" id="MealsSouth">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				
+			</table>
+			<b><h3 color="red">North-Indian :</h3></b>
+			<table  cellpadding="2" Cellspacing="2" align="center" >
+				<tr >
+					<th>Item</th>
+					<th>Rate</th>
+					<th>Quantity</th>
+				</tr>
+				<tr>
+					<td>Roti</td>
+					<td>Rs 15.00/-</td>
+					<td> <select type="text" class="form-control" id="Roti">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				<tr>
+					<td>Kadai Paneer</td>
+					<td>Rs 120.00/-</td>
+					<td> <select type="text" class="form-control" id="KadaiPaneer">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				<tr>
+					<td>Palak Paneer</td>
+					<td>Rs 140.00/-</td>
+					<td> <select type="text" class="form-control" id="PalakPaneer">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				<tr>
+					<td>Meals</td>
+					<td>Rs 100.00/-</td>
+					<td> <select type="text" class="form-control" id="MealsNorth">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				
+			</table>
+			<b><h3 color="red">Chinese :</h3></b>
+			<table  cellpadding="2" Cellspacing="2" align="center" >
+				<tr >
+					<th>Item</th>
+					<th>Rate</th>
+					<th>Quantity</th>
+				</tr>
+				<tr>
+					<td>Noodles</td>
+					<td>Rs 120.00/-</td>
+					<td> <select type="text" class="form-control" id="Noodles">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				<tr>
+					<td>Fried Rice</td>
+					<td>Rs 120.00/-</td>
+					<td> <select type="text" class="form-control" id="FriedRice">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				<tr>
+					<td>Gobi Machurian</td>
+					<td>Rs 140.00/-</td>
+					<td> <select type="text" class="form-control" id="GobiMachurian">
+						<option>0</option>
+				    	<option>1</option>
+				    	<option>2</option>
+				    	<option>3</option>
+				    	<option>4</option>
+				    	<option>5</option>
+				    </td>
+				</tr>
+				
+			</table>
+			<br>
+			<input  type="submit"  id="orders-btn" type="button" class="btn btn-primary">
+			</div> 
+		
+		<div id="no-order-div" class="center-block hidden">
+			<h2 align="center" >You haven't selected any items! Please select items from the Menu</h2>
+		</div>
+		
+		<div id="order-div" class="center-block hidden info-div3">
+			<h2 align="center" >Your Order</h2>
+			<table  cellpadding="2" Cellspacing="2" align="center" >
+				<tr >
+					<th>Item</th>
+					<th>Quantity</th>
+					<th>Rate</th>
+				</tr>
+				<tr id="vb" class="hide-menu-item">
+					<td>Veg Biryani</td>
+					<td id="vb-q"></td>
+					<td id="vb-price"></td>
+					
+				</tr>
+				<tr id="eb" class="hide-menu-item">
+					<td>Egg Biryani</td>
+					<td id="eb-q"></td>
+					<td id="eb-price"></td>
+					
+				</tr>
+				<tr id="cb" class="hide-menu-item">
+					<td>Chicken Biryani</td>
+					<td id="cb-q"></td>
+					<td id="cb-price"></td>
+				</tr>
+				<tr id="me-s" class="hide-menu-item">
+					<td>Meals</td>
+					<td id="me-s-q"></td>
+					<td id="me-s-price"></td>
+				</tr>
+				<tr id="roti" class="hide-menu-item">
+					<td>Roti</td>
+					<td id="roti-q"></td>
+					<td id="roti-price"></td>
+				</tr>
+				<tr id="kp" class="hide-menu-item">
+					<td>Kadai Paneer</td>
+					<td id="kp-q"></td>
+					<td id="kp-price"></td>
+				</tr>
+				<tr id="pp" class="hide-menu-item">
+					<td>Palak Paneer</td>
+					<td id="pp-q"></td>
+					<td id="pp-price"></td>
+				</tr>
+				<tr id="me-n" class="hide-menu-item">
+					<td>Meals</td>
+					<td id="me-n--q"></td>
+					<td id="me-n-price"></td>
+				</tr>
+				<tr id="noo" class="hide-menu-item">
+					<td>Noodles</td>
+					<td id="noo-q"></td>
+					<td id="noo-price"></td>
+				</tr>
+				<tr id="fr" class="hide-menu-item">
+					<td>Fried Rice</td>
+					<td id="fr-q"></td>
+					<td id="fr-price"></td>
+				</tr>
+				<tr id="gm" class="hide-menu-item">
+					<td>Gobi Machurian</td>
+					<td id="gm-q"></td>
+					<td id="gm-price"></td>
+				</tr>
+				
+			</table>
+			<h3 id="total-price" align="center"></h3>
+			<br>
+			<form class="form-inline" align="center" action="thankyou.html" name="orderForm" onsubmit="return validaeForms()" >
+				<div class="form-group">
+				    <label for="enterEmail">Name :   </label>
+				    <input type="text" name="name" class="form-control" id="enterName" name="name"><br><br>
+				    <label for="enterMobile">Mobile : </label>
+				    <input type="text" name="email"class="form-control" id="enterMobile" name="mobile"/> <br><br>	
+				    <label for="enterEmail">Address :   </label>
+				    <input type="text" name="address"class="form-control" id="enterAdress" name="address"><br><br>
+				    <label for="enterEmail">Other Options :   </label><br>
+				    <input type="radio" name="option" value="pickup">Pickup<br>
+				    <input type="radio" name="option" value="preorder">Pre-Order<br> 
+				    <input type="radio" name="option" value="preorder">Pay On Delivery<br> 
+				  
+				 </div>
+				 <br><br>
+				 
+				 <input  type="submit" value="Submit" id="submit-btn" >
+			</form>
+		
+	</div>
+</body>
+</html>	

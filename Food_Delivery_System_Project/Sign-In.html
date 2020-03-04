@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Food Delivery</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	
+	<link rel="stylesheet" href="css/home.css">
+	<script src="js/home.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="text-center">Online Food Delivery</h1>
+		<p class="text-center">Where Food Knocks Your Door</p>
+
+		<div id="nav-div">
+			<ul class="nav nav-pills">
+				<li id="home" role="presentation"><a href="homepage.html">Home</a></li>
+				<li id="about" role="presentation"><a href="About-us.html">About Us</a></li>
+				<li id="help" role="presentation"><a href="help.html">Help & FAQ</a></li>
+				<li id="cust-signin" role="presentation"><a href="Sign-In.html">Signin</a></li>
+			</ul>
+		</div>
+		<div id="enter-email">
+			<form name="SignForm" action="vendorhome.html" class="form-inline" align="center"  onsubmit="return validateForm()" method="post" action="vendorhome.html">
+				
+				    <label for="enterEmail">Email :   </label>
+				    <input type="text" name="email" class="form-control" id="enterEmail"><br><br>
+				    <label for="enterPassword">Password : </label>
+				    <input type="password" name="password" class="form-control" id="enterPassword" />  	
+				    <br><br>
+				  	<input   type="submit"   value="Submit"  id="submit-btn" type="button" class="btn btn-primary">
+				 			 
+			</form>
+			
+		</div>
+</body>
+</html>
